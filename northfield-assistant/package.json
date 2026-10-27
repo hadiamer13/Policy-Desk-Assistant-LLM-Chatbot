@@ -1,0 +1,19 @@
+{
+  "name": "northfield-policy-desk-assistant",
+  "version": "0.1.0",
+  "description": "Grounded LLM policy assistant for Northfield Institute (Power5 Capstone - Context Engineering + LLMs)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/run.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

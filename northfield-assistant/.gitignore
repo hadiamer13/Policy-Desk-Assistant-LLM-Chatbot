@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS cruft
+.DS_Store
